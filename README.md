@@ -13,5 +13,6 @@ Educational project - Game design 1 - Lisaa
 - GD1 Poromaric
 - GD1 Reginoobi
 - GD1 Skull478
+- GD1 ZePirate
 - GD1 Clement_K
 - GD1 Turbo_Scofr
