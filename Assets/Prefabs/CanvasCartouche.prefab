@@ -91,6 +91,8 @@ GameObject:
   - component: {fileID: 1343132573218879431}
   - component: {fileID: 1343132573218879436}
   - component: {fileID: 1657905271}
+  - component: {fileID: 3006974277094947653}
+  - component: {fileID: 2167840823143855452}
   m_Layer: 5
   m_Name: CanvasCartouche
   m_TagString: Untagged
@@ -206,6 +208,37 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3006974277094947653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343132573218879430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"levelName","value":{"$content":"level1","$type":"System.String"},"$version":"A"},{"name":"levelAuthor","value":{"$content":"TutoBolt","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &2167840823143855452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343132573218879430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 1757180322a6e804ea93300034e40247, type: 2}
 --- !u!1 &1343132573241902508
 GameObject:
   m_ObjectHideFlags: 0
