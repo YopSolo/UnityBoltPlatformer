@@ -33,6 +33,7 @@ Assets/Ludiq/Ludiq.Core/Generated/Property Providers.meta
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+[Ll]ogs/
 Assets/AssetStoreTools*
 
 # Visual Studio cache directory
@@ -64,3 +65,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.log
+
