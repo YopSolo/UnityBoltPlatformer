@@ -34,11 +34,14 @@ namespace Ludiq.Generated.Aot
 	// float.op_Inequality
 	// float.op_LessThan
 	// float.op_LessThanOrEqual
+	// int.ToString
 	// Readme.op_Equality
 	// Readme.op_Implicit
 	// Readme.op_Inequality
+	// string.Concat
 	// string.op_Equality
 	// string.op_Inequality
+	// System.Collections.Generic.List<UnityEngine.GameObject>..ctor
 	// UnityEngine.AI.NavMeshAgent.op_Equality
 	// UnityEngine.AI.NavMeshAgent.op_Implicit
 	// UnityEngine.AI.NavMeshAgent.op_Inequality
@@ -142,6 +145,7 @@ namespace Ludiq.Generated.Aot
 	// UnityEngine.AudioSource.op_Implicit
 	// UnityEngine.AudioSource.op_Inequality
 	// UnityEngine.AudioSource.PlayOneShot
+	// UnityEngine.AudioSource.Stop
 	// UnityEngine.Avatar.op_Equality
 	// UnityEngine.Avatar.op_Implicit
 	// UnityEngine.Avatar.op_Inequality
@@ -221,6 +225,7 @@ namespace Ludiq.Generated.Aot
 	// UnityEngine.Color.op_Subtraction
 	// UnityEngine.Color.r
 	// UnityEngine.Component.GetComponent
+	// UnityEngine.Component.GetComponentInChildren
 	// UnityEngine.Component.Instantiate
 	// UnityEngine.Component.op_Equality
 	// UnityEngine.Component.op_Implicit
@@ -299,12 +304,14 @@ namespace Ludiq.Generated.Aot
 	// UnityEngine.FrictionJoint2D.op_Equality
 	// UnityEngine.FrictionJoint2D.op_Implicit
 	// UnityEngine.FrictionJoint2D.op_Inequality
+	// UnityEngine.GameObject..ctor
 	// UnityEngine.GameObject.CompareTag
 	// UnityEngine.GameObject.Destroy
 	// UnityEngine.GameObject.Destroy
 	// UnityEngine.GameObject.Find
 	// UnityEngine.GameObject.FindGameObjectsWithTag
 	// UnityEngine.GameObject.FindGameObjectWithTag
+	// UnityEngine.GameObject.Instantiate
 	// UnityEngine.GameObject.Instantiate
 	// UnityEngine.GameObject.layer
 	// UnityEngine.GameObject.op_Equality
@@ -362,6 +369,7 @@ namespace Ludiq.Generated.Aot
 	// UnityEngine.Material.op_Implicit
 	// UnityEngine.Material.op_Inequality
 	// UnityEngine.Mathf.Atan2
+	// UnityEngine.Mathf.FloorToInt
 	// UnityEngine.Mathf.Min
 	// UnityEngine.Mathf.PI
 	// UnityEngine.Mathf.Sin
@@ -497,6 +505,8 @@ namespace Ludiq.Generated.Aot
 	// UnityEngine.SceneManagement.SceneManager.GetActiveScene
 	// UnityEngine.SceneManagement.SceneManager.LoadScene
 	// UnityEngine.SceneManagement.SceneManager.LoadScene
+	// UnityEngine.SceneManagement.SceneManager.sceneCountInBuildSettings
+	// UnityEngine.SceneManagement.SceneManager.UnloadSceneAsync
 	// UnityEngine.ScriptableObject.op_Equality
 	// UnityEngine.ScriptableObject.op_Implicit
 	// UnityEngine.ScriptableObject.op_Inequality
@@ -673,9 +683,11 @@ namespace Ludiq.Generated.Aot
 	// UnityEngine.UI.Slider.op_Equality
 	// UnityEngine.UI.Slider.op_Implicit
 	// UnityEngine.UI.Slider.op_Inequality
+	// UnityEngine.UI.Text.color
 	// UnityEngine.UI.Text.op_Equality
 	// UnityEngine.UI.Text.op_Implicit
 	// UnityEngine.UI.Text.op_Inequality
+	// UnityEngine.UI.Text.text
 	// UnityEngine.UI.Toggle.op_Equality
 	// UnityEngine.UI.Toggle.op_Implicit
 	// UnityEngine.UI.Toggle.op_Inequality
@@ -1007,6 +1019,17 @@ namespace Ludiq.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
+		// int.ToString
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void int_ToString()
+		{
+			int target = default(int);
+			target.ToString();
+			global::Ludiq.ReflectionInvoker optimized = new global::Ludiq.ReflectionInvoker(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(int));
+			optimized.Invoke(default(object[]));
+		}
+		
 		// Readme.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void Readme_op_Equality()
@@ -1042,6 +1065,18 @@ namespace Ludiq.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
+		// string.Concat
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void string_Concat()
+		{
+			object arg0 = default(object);
+			object arg1 = default(object);
+			string.Concat(arg0, arg1);
+			global::Ludiq.StaticFunctionInvoker<object, object, string> optimized = new global::Ludiq.StaticFunctionInvoker<object, object, string>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
 		// string.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void string_op_Equality()
@@ -1064,6 +1099,13 @@ namespace Ludiq.Generated.Aot
 			global::Ludiq.StaticFunctionInvoker<string, string, bool> optimized = new global::Ludiq.StaticFunctionInvoker<string, string, bool>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(null, arg0, arg1);
 			optimized.Invoke(default(object[]));
+		}
+		
+		// System.Collections.Generic.List<UnityEngine.GameObject>..ctor
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void System_Collections_Generic_List_UnityEngine_GameObject_ctor()
+		{
+			new System.Collections.Generic.List<UnityEngine.GameObject>();
 		}
 		
 		// UnityEngine.AI.NavMeshAgent.op_Equality
@@ -2269,6 +2311,17 @@ namespace Ludiq.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
+		// UnityEngine.AudioSource.Stop
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_AudioSource_Stop()
+		{
+			global::UnityEngine.AudioSource target = default(global::UnityEngine.AudioSource);
+			target.Stop();
+			global::Ludiq.InstanceActionInvoker<UnityEngine.AudioSource> optimized = new global::Ludiq.InstanceActionInvoker<UnityEngine.AudioSource>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::UnityEngine.AudioSource));
+			optimized.Invoke(default(object[]));
+		}
+		
 		// UnityEngine.Avatar.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_Avatar_op_Equality()
@@ -3194,6 +3247,18 @@ namespace Ludiq.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
+		// UnityEngine.Component.GetComponentInChildren
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Component_GetComponentInChildren()
+		{
+			global::UnityEngine.Component target = default(global::UnityEngine.Component);
+			global::System.Type arg0 = default(global::System.Type);
+			target.GetComponentInChildren(arg0);
+			global::Ludiq.InstanceFunctionInvoker<UnityEngine.Component, System.Type, UnityEngine.Component> optimized = new global::Ludiq.InstanceFunctionInvoker<UnityEngine.Component, System.Type, UnityEngine.Component>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::UnityEngine.Component), arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
 		// UnityEngine.Component.Instantiate
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_Component_Instantiate()
@@ -4106,6 +4171,13 @@ namespace Ludiq.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
+		// UnityEngine.GameObject..ctor
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_GameObject_ctor()
+		{
+			new UnityEngine.GameObject();
+		}
+		
 		// UnityEngine.GameObject.CompareTag
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_GameObject_CompareTag()
@@ -4177,6 +4249,18 @@ namespace Ludiq.Generated.Aot
 		// UnityEngine.GameObject.Instantiate
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_GameObject_Instantiate()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Transform arg1 = default(global::UnityEngine.Transform);
+			global::UnityEngine.Object.Instantiate(arg0, arg1);
+			global::Ludiq.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Transform, UnityEngine.Object> optimized = new global::Ludiq.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Transform, UnityEngine.Object>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.GameObject.Instantiate
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_GameObject_Instantiate_0()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Vector3 arg1 = default(global::UnityEngine.Vector3);
@@ -4834,6 +4918,17 @@ namespace Ludiq.Generated.Aot
 			global::UnityEngine.Mathf.Atan2(arg0, arg1);
 			global::Ludiq.StaticFunctionInvoker<float, float, float> optimized = new global::Ludiq.StaticFunctionInvoker<float, float, float>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.Mathf.FloorToInt
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Mathf_FloorToInt()
+		{
+			float arg0 = default(float);
+			global::UnityEngine.Mathf.FloorToInt(arg0);
+			global::Ludiq.StaticFunctionInvoker<float, int> optimized = new global::Ludiq.StaticFunctionInvoker<float, int>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
 			optimized.Invoke(default(object[]));
 		}
 		
@@ -6409,6 +6504,26 @@ namespace Ludiq.Generated.Aot
 			string arg0 = default(string);
 			global::UnityEngine.SceneManagement.SceneManager.LoadScene(arg0);
 			global::Ludiq.StaticActionInvoker<string> optimized = new global::Ludiq.StaticActionInvoker<string>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.SceneManagement.SceneManager.sceneCountInBuildSettings
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_SceneManagement_SceneManager_sceneCountInBuildSettings()
+		{
+			int accessor = global::UnityEngine.SceneManagement.SceneManager.sceneCountInBuildSettings;
+			global::Ludiq.StaticPropertyAccessor<int> optimized = new global::Ludiq.StaticPropertyAccessor<int>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(null);
+		}
+		
+		// UnityEngine.SceneManagement.SceneManager.UnloadSceneAsync
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_SceneManagement_SceneManager_UnloadSceneAsync()
+		{
+			string arg0 = default(string);
+			global::UnityEngine.SceneManagement.SceneManager.UnloadSceneAsync(arg0);
+			global::Ludiq.StaticFunctionInvoker<string, UnityEngine.AsyncOperation> optimized = new global::Ludiq.StaticFunctionInvoker<string, UnityEngine.AsyncOperation>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(null, arg0);
 			optimized.Invoke(default(object[]));
 		}
@@ -8470,6 +8585,18 @@ namespace Ludiq.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
+		// UnityEngine.UI.Text.color
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_UI_Text_color()
+		{
+			global::UnityEngine.UI.Graphic target = default(global::UnityEngine.UI.Graphic);
+			global::UnityEngine.Color accessor = target.color;
+			target.color = default(global::UnityEngine.Color);
+			global::Ludiq.InstancePropertyAccessor<UnityEngine.UI.Graphic, UnityEngine.Color> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.UI.Graphic, UnityEngine.Color>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(default(global::UnityEngine.UI.Graphic));
+			optimized.SetValue(default(global::UnityEngine.UI.Graphic), default(global::UnityEngine.Color));
+		}
+		
 		// UnityEngine.UI.Text.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_UI_Text_op_Equality()
@@ -8503,6 +8630,18 @@ namespace Ludiq.Generated.Aot
 			global::Ludiq.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Ludiq.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(null, arg0, arg1);
 			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.UI.Text.text
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_UI_Text_text()
+		{
+			global::UnityEngine.UI.Text target = default(global::UnityEngine.UI.Text);
+			string accessor = target.text;
+			target.text = default(string);
+			global::Ludiq.InstancePropertyAccessor<UnityEngine.UI.Text, string> optimized = new global::Ludiq.InstancePropertyAccessor<UnityEngine.UI.Text, string>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(default(global::UnityEngine.UI.Text));
+			optimized.SetValue(default(global::UnityEngine.UI.Text), default(string));
 		}
 		
 		// UnityEngine.UI.Toggle.op_Equality
