@@ -247,7 +247,7 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"TempsLeTextEnVert","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"TempsTambour","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"Coche_Objet","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Coche_HP","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Coche_Temps","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ValeurReussite","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Text_Objet","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Text_HP","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Text_Temps","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Text_Minutes_Voulut","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Text_Secondes_Voulut","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Text_Minutes_Fait","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Text_Secondes_Fait","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Secondes_Fait","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Secondes","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Minutes","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"PASSER","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"QUIT","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Cross_Objet","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Cross_HP","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Cross_Temps","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameObjectTemps","value":{"$content":[15,16,17,18,19,20,21,22],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"AnimEtoileOmbre","value":{"$content":[23,24,25],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"AnimEtoile","value":{"$content":[26,27,28],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"CameraScore","value":{"$content":29,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1580524845}
     - {fileID: 634192757}
@@ -278,6 +278,7 @@ MonoBehaviour:
     - {fileID: 238886983}
     - {fileID: 1536218792}
     - {fileID: 1131021580}
+    - {fileID: 916021344}
 --- !u!82 &10738033
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1691,7 +1692,7 @@ GameObject:
   - component: {fileID: 916021347}
   - component: {fileID: 916021346}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Camera_Score
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
