@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: sound_manager_level_pierre
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"53199395-988e-41fb-84bb-d19c0623c881","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"f61aefbd-df7f-4f6d-b456-130893fd1123","$version":"A","$type":"Bolt.Update"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"Hack","$type":"System.String"}},"position":{"x":-239.0,"y":208.0},"guid":"c6600a48-3d66-44b8-bc27-86b1f9118049","$version":"A","$type":"Bolt.CustomEvent","$id":"13"},{"chainable":false,"member":{"name":"PlayOneShot","parameterTypes":["UnityEngine.AudioClip","System.Single"],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"%clip":{"$content":0,"$type":"UnityEngine.Object"},"%volumeScale":{"$content":1.25,"$type":"System.Single"}},"position":{"x":-10.0,"y":201.0},"guid":"772777a3-61f6-4f4d-beac-426724e6f3fb","$version":"A","$type":"Bolt.InvokeMember","$id":"15"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"ddfaeea3-4320-4b46-b7ec-5c1e98202c18","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: 86668b36abe0fe244aa01df9ff091533, type: 3}
