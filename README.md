@@ -3,7 +3,7 @@
 - Window > package manager > Bolt 1.4.15 >> import
 - tools > bolt > setup wizard
 
-Educational project - Game design 1 - LISAA
+Educational project - Game design 1 - Lisaa
 
 ---
 - trinytia Alexandre_S
