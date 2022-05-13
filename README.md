@@ -6,10 +6,12 @@
 Educational project - Game design 1 - Lisaa
 
 ---
-- trinytia
-- Alexandre_S
+- trinytia Alexandre_S
 - GD1 Pedrito64
 - Quiniou55555
 - GD1 Poromaric
 - GD1 Reginoobi
 - GD1 Skull478
+- GD1 ZePirate
+- GD1 Clement_K
+- GD1 Turbo_Scofr
