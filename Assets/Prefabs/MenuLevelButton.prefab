@@ -215,7 +215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"LevelName","value":{"$content":"Level1","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"LevelName","value":{"$content":"Level1","$type":"System.String"},"$version":"A"},{"name":"MyLevelName","value":{"$content":"Level_Romain","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &3726279255216192502
 MonoBehaviour:
