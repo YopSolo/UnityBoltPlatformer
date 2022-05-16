@@ -245,6 +245,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 58865737434419134, guid: bceab07a1242fcd40b45098f03a3d932,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 199359977168995586, guid: bceab07a1242fcd40b45098f03a3d932,
         type: 3}
       propertyPath: m_Materials.Array.size
@@ -2314,11 +2319,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1077305694601887437, guid: 3b5ed7f1b23556c49b46dd7594b2502c,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"animRotationSpeed","value":{"$content":90.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 1357314051033048, guid: 3b5ed7f1b23556c49b46dd7594b2502c, type: 3}
       propertyPath: m_Name
       value: BigHeart

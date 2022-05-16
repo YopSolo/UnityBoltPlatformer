@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"healPower","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"animSpeed","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"animAmplitude","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"animRotationSpeed","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"animRotationSpeed","value":{"$content":90.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &-3684450977207172406
 MonoBehaviour:
