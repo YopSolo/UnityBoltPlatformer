@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 50304428359922864}
   - component: {fileID: 5406668170604086976}
   - component: {fileID: 8653960508872321402}
+  - component: {fileID: 8736493691943843739}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -278,6 +279,20 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 92392b2992f4d474bb3d52aa0564c075, type: 2}
+--- !u!114 &8736493691943843739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784235645598328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc414ff64c59204bbd01b6af53f0dba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProjectilePrefab: {fileID: 1935948280087688, guid: 47432e862bf999248bc35e3be9a41731,
+    type: 3}
 --- !u!1001 &4899537138888809366
 PrefabInstance:
   m_ObjectHideFlags: 0
