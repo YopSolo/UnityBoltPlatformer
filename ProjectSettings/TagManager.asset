@@ -8,9 +8,6 @@ TagManager:
   - Projectile
   - Key
   - Enemy
-  - HudHeartTag
-  - Viseur
-  - VaisseauBoss
   layers:
   - Default
   - TransparentFX
@@ -25,8 +22,8 @@ TagManager:
   - Background
   - Enemies
   - PlayerInvincible
-  - Projectile
-  - VaisseauBoss
+  - 
+  - 
   - 
   - 
   - 
