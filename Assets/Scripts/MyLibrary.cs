@@ -7,8 +7,10 @@ using Bolt;
 
 public class MyLibrary : MonoBehaviour
 {
-    // accesseur pour get /set une valeur de variable
+    // ceci est un commentaire :)
 
+    #region declaration d'une variable avec des attributes
+    // accesseur pour get /set une valeur de variable
     // et bim un gros stack d'Attributes :D
     [Range(0.0f, 10000.0f)]
     [Header("Power settings")]
@@ -16,11 +18,15 @@ public class MyLibrary : MonoBehaviour
     [SerializeField]
     private float myCurrentPower = 9000.0f;
     public float MyCurrentPower { get => myCurrentPower; set => myCurrentPower = value; }
+    #endregion
 
+
+    #region autres variables
     [Header("Prefabs")]
     public GameObject MyProjectilePrefab;
 
     GraphReference MyGraphReference;
+    #endregion
 
     private void Awake()
     {
@@ -28,21 +34,27 @@ public class MyLibrary : MonoBehaviour
         MyGraphReference = GraphReference.New(GetComponent<FlowMachine>(), true);
     }
 
-    //void Start()
-    //{
+    // equivalent du node start de bolt
+    void Start()
+    {
 
-    //}
+    }
 
+    #region déclaration d'une méthode custom : MyPlayerSayHello
+    // une fonction (méthode) custom pour dire bonjour :)
     public void MyPlayerSayHello()
     {
         Debug.Log("Hello depuis C#");
     }
 
+    // une variation avec un paramètre
     public void MyPlayerSay(string pStringValue)
     {
         Debug.Log(pStringValue);
     }
+    #endregion
 
+    #region déclaration d'une méthode pour calculer une moyenne
     public float CalcAverage(List<float> pNotes)
     {
         float lSomme = 0.0f;
@@ -52,7 +64,9 @@ public class MyLibrary : MonoBehaviour
         }
         return lSomme / pNotes.Count;
     }
+    #endregion
 
+    #region conversion le méthode OpenFire de nodes bolt en c#
     // documentation
     // https://docs.unity3d.com/2019.3/Documentation/Manual/bolt-variables-api.html
     public void OpenFire()
@@ -85,4 +99,5 @@ public class MyLibrary : MonoBehaviour
             }
         }
     }
+    #endregion
 }
