@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 165, y: -120}
+  m_AnchoredPosition: {x: 165, y: -125.5}
   m_SizeDelta: {x: 480, y: 480}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1343132573120168887
@@ -199,7 +199,7 @@ Animator:
   m_GameObject: {fileID: 1343132573218879430}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 76015c1ce51b87c4e8502459e72da464, type: 2}
+  m_Controller: {fileID: 9100000, guid: 929f5eb56bb37d64180fea1bc16d8ae0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -317,7 +317,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Auteur
+  m_Text: "Cl\xE9ment le codeur "
 --- !u!1 &1343132573531061844
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,4 +396,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level name
+  m_Text: Oskour bangalou
