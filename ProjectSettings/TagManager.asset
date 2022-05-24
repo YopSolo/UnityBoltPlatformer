@@ -11,6 +11,7 @@ TagManager:
   - HudHeartTag
   - Viseur
   - VaisseauBoss
+  - Teleporter
   layers:
   - Default
   - TransparentFX
